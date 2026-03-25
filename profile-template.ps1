@@ -24,6 +24,7 @@ else {
     
     Import-Module "$ModulesPath\Sudo.psm1" -ErrorAction Stop
     Import-Module "$ModulesPath\Copilot.psm1" -ErrorAction Stop
+    Import-Module "$ModulesPath\Claude.psm1" -ErrorAction Stop
     Import-Module "$ModulesPath\WSLPortMapping.psm1" -ErrorAction Stop
     Import-Module "$ModulesPath\FirewallManager.psm1" -ErrorAction Stop
 }
