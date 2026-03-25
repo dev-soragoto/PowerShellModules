@@ -2,14 +2,16 @@
 
 个人使用的一些powershell脚本
 
-1. Copilot 
-    - 封装 Github Copilot Cli 增加 session log 等删除
-2. FirewallManager
-    - 方便的开关端口
-3. Sudo
-    - Sudo for windows 的封装，会加载 $PROFILE
-4. WSLPortMapping
-    - 映射 WSL 端口到 windows ，在 WSL 为 NAT 网络模式时使用
+1. Claude
+    - 封装 Claude Code Cli，增加 session、history、project、cache 等数据清理功能
+2. Copilot
+    - 封装 Github Copilot Cli，增加 session、log、history 等数据清理功能
+3. FirewallManager
+    - 方便地开关防火墙端口（支持 TCP / UDP）
+4. Sudo
+    - Sudo for Windows 的封装，执行时会自动加载 $PROFILE
+5. WSLPortMapping
+    - 映射 WSL 端口到 Windows，在 WSL 为 NAT 网络模式时使用，自动配置端口代理与防火墙规则
 
 **Tips:**
 
